@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ada Calculator</title>
+
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="calculator">
+				<div class="screen">
+					<div class="expression_container" id="expression">
+						Expression
+					</div>
+					<div class="operand_container" id="operand">
+						Operand
+					</div>
+				</div>
+				<div class="row">
+					<button data-action="control" class="button ac" id="ac">AC</button>
+					<button data-action="control" class="button c" id="c">C</button>					
+					<button data-action="operator" class="button operator" id="/">/</button>
+					<button data-action="operator" class="button operator" id="*">*</button>
+				</div>
+				<div class="row">
+					<button data-action="digit" class="button" id="7">7</button>
+					<button data-action="digit" class="button" id="8">8</button>
+					<button data-action="digit" class="button" id="9">9</button>
+					<button data-action="operator" class="button operator" id="-">-</button>
+				</div>
+				<div class="row">
+					<button data-action="digit" class="button" id="4">4</button>
+					<button data-action="digit" class="button" id="5">5</button>
+					<button data-action="digit" class="button" id="6">6</button>
+					<button data-action="operator" class="button operator" id="+">+</button>
+				</div>
+				<div class="row">
+					<button data-action="digit" class="button" id="1">1</button>
+					<button data-action="digit" class="button" id="2">2</button>
+					<button data-action="digit" class="button" id="3">3</button>
+					<button data-action="control" class="button tall eq" id="=">=</button>
+				</div>
+				<div class="row narrow">
+					<button data-action="digit" class="button wide" id="0">0</button>
+					<button data-action="digit" class="button" id=".">.</button>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+
+	</body>
+</html>
